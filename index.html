@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mente Focada - Áudios para Sucesso em Exames</title>
+    <meta name="description" content="Áudios relaxantes e de reprogramação mental para atingir seus objetivos rapidamente. Especializado em preparação para exames e concursos.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <i class="fas fa-brain"></i>
+                <span>Mente Focada</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transforme Sua Mente, Conquiste Seus Objetivos</h1>
+            <p>Áudios cientificamente desenvolvidos para relaxamento profundo e reprogramação mental. Acelere seu sucesso em exames e concursos com nossa metodologia exclusiva.</p>
+            <div class="hero-buttons">
+                <a href="#produtos" class="btn btn-primary">Ver Produtos</a>
+                <a href="#demo" class="btn btn-secondary">Teste Grátis</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="floating-card">
+                <i class="fas fa-headphones"></i>
+                <p>Mais de 10.000 aprovados</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section id="beneficios" class="benefits">
+        <div class="container">
+            <h2>Por Que Nossos Áudios Funcionam?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Reprogramação Mental</h3>
+                    <p>Técnicas avançadas de hipnose e PNL para eliminar bloqueios e potencializar o aprendizado.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-spa"></i>
+                    <h3>Relaxamento Profundo</h3>
+                    <p>Reduza ansiedade e estresse com frequências binaurais e sons da natureza cuidadosamente selecionados.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-target"></i>
+                    <h3>Foco Intenso</h3>
+                    <p>Desenvolva concentração laser e memória fotográfica para absorver conteúdos rapidamente.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Resultados Rápidos</h3>
+                    <p>Metodologia comprovada que acelera o processo de aprendizado em até 300%.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section id="produtos" class="products">
+        <div class="container">
+            <h2>Nossos Produtos Exclusivos</h2>
+            <div class="products-grid">
+
+                <!-- Produto 1 -->
+                <div class="product-card featured">
+                    <div class="product-badge">MAIS VENDIDO</div>
+                    <div class="product-image">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Pack Aprovação Total</h3>
+                    <p>Combo completo com 12 áudios para todas as fases do seu estudo:</p>
+                    <ul>
+                        <li>4 áudios de relaxamento profundo</li>
+                        <li>4 áudios de reprogramação mental</li>
+                        <li>2 áudios para memória e concentração</li>
+                        <li>2 áudios para confiança e motivação</li>
+                    </ul>
+                    <div class="price">
+                        <span class="old-price">R$ 297,00</span>
+                        <span class="current-price">R$ 97,00</span>
+                    </div>
+                    <button class="btn btn-primary" onclick="comprarProduto('pack-aprovacao')">Comprar Agora</button>
+                </div>
+
+                <!-- Produto 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Relaxamento Profundo</h3>
+                    <p>Áudios especializados para eliminar ansiedade e preparar sua mente para o aprendizado otimizado.</p>
+                    <ul>
+                        <li>6 áudios de 20-45 minutos</li>
+                        <li>Frequências binaurais</li>
+                        <li>Sons da natureza</li>
+                        <li>Técnicas de respiração</li>
+                    </ul>
+                    <div class="price">
+                        <span class="current-price">R$ 47,00</span>
+                    </div>
+                    <button class="btn btn-primary" onclick="comprarProduto('relaxamento')">Comprar Agora</button>
+                </div>
+
+                <!-- Produto 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Mente Genial</h3>
+                    <p>Desenvolva memória fotográfica e concentração extrema com nossa tecnologia exclusiva.</p>
+                    <ul>
+                        <li>8 áudios especializados</li>
+                        <li>Técnicas de memorização</li>
+                        <li>Exercícios de concentração</li>
+                        <li>Reprogramação para genialidade</li>
+                    </ul>
+                    <div class="price">
+                        <span class="current-price">R$ 67,00</span>
+                    </div>
+                    <button class="btn btn-primary" onclick="comprarProduto('mente-genial')">Comprar Agora</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Demonstração -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <h2>Experimente Gratuitamente</h2>
+            <p>Sinta o poder dos nossos áudios com esta amostra grátis de relaxamento</p>
+            <div class="audio-player">
+                <audio id="demo-audio" preload="metadata">
+                    <source src="demo-relaxamento.mp3" type="audio/mpeg">
+                    Seu navegador não suporta áudio.
+                </audio>
+                <div class="player-controls">
+                    <button id="play-btn"><i class="fas fa-play"></i></button>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <span class="time">0:00 / 3:00</span>
+                </div>
+            </div>
+            <div class="demo-benefits">
+                <p><i class="fas fa-check"></i> Redução imediata do estresse</p>
+                <p><i class="fas fa-check"></i> Clareza mental em minutos</p>
+                <p><i class="fas fa-check"></i> Preparação ideal para estudos</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="testimonials">
+        <div class="container">
+            <h2>O Que Nossos Clientes Dizem</h2>
+            <div class="testimonials-grid">
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Usei os áudios por apenas 3 semanas e passei no concurso que estava tentando há 2 anos! A diferença na minha concentração foi incrível."</p>
+                    <div class="testimonial-author">
+                        <strong>Marina Silva</strong>
+                        <span>Aprovada - Concurso TRT</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"A ansiedade que me prejudicava nas provas simplesmente desapareceu. Consegui manter a calma e o foco durante todo o exame."</p>
+                    <div class="testimonial-author">
+                        <strong>Carlos Mendes</strong>
+                        <span>Aprovado - OAB</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Minha capacidade de memorização melhorou drasticamente. Conseguia lembrar de tudo o que estudava com muito mais facilidade."</p>
+                    <div class="testimonial-author">
+                        <strong>Ana Paula</strong>
+                        <span>Aprovada - Medicina (Residência)</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Garantia -->
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee-content">
+                <div class="guarantee-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="guarantee-text">
+                    <h3>Garantia Total de 30 Dias</h3>
+                    <p>Se não ficar 100% satisfeito com os resultados, devolvemos seu dinheiro sem perguntas. Sua satisfação é nossa prioridade!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Mente Focada</h4>
+                    <p>Transformando mentes, conquistando objetivos.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-envelope"></i> contato@mentefocada.com</p>
+                    <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+                    <p><i class="fas fa-clock"></i> Seg-Sex: 9h às 18h</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Informações</h4>
+                    <ul>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Suporte</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mente Focada. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
